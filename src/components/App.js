@@ -34,7 +34,6 @@ class App extends React.Component {
 			this.props.match.params.storeId,
 			JSON.stringify(this.state.order)
 		);
-		console.log(`updated with: ${JSON.stringify(this.state.order)}`);
 	}
 
 	componentWillUnmount() {
